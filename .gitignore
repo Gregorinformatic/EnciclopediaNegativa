@@ -1,0 +1,40 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# local development data
+run/
+run-data/
+mcmodsrepo/
+
+# other
+eclipse
+
+# Files from Forge MDK
+forge*changelog.txt
+
+# local credentials and logs
+.env
+.env.*
+!.env.example
+*.log
+*.log.*
+*.keystore
+*.jks
+*.p12
+*.pem
